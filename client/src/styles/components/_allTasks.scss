@@ -1,0 +1,21 @@
+.all-tasks {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    overflow: hidden;
+
+    .task-details {
+        display: flex;
+    }
+
+    .task {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem 0;
+
+        .done {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 5rem;
+
+    .input-container {
+        position: relative;
+    }
+
+    .text {
+        outline: none;
+        padding: 0.5rem 1rem;
+        width: 100%;
+    }
+
+    .error {
+        position: absolute;
+        color: red;
+    }
+}
